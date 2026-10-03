@@ -1,0 +1,15 @@
+// Temporary local data. Later this can be generated from the Google Sheet.
+window.PROJECTS = [
+ {id:'001',name:'Kayak Workout',subtitle:'Fitness training game',how:'Project information will be pulled from the Projects sheet.',credits:'',tags:[],accent:'green'},
+ {id:'002',name:'SmartPhone Gun',subtitle:'A shooting game designed for public spaces, and controlled via smartphone.',how:'In-game movement based on smartphone gyroscope data. Shooting by touching the phone screen. Game is made in Unity 2D.',credits:'Done as part of a final project – Gefen Avrahami & Lian Landsman',tags:[],accent:'blue'},
+ {id:'003',name:'Football Kicker',subtitle:'Interactive wall, activated by soccer kicks',how:'DIY USB arcade + five sensors activated by mechanical hit. Game is made in Unity 2D.',credits:'Done as part of a Sport game project, 11 Grade – Liam Nisim & Netanel Huri & Almog Saparaz',tags:[],accent:'red'},
+ {id:'004',name:'Drive Simulator',subtitle:'Driving simulator – competition between player and AI racers.',how:'Signal from steering wheel and pedals based on Microbit gyroscope.',credits:'Done as part of a final project – Liam Nisim & Netanel Huri',tags:[],accent:'blue'},
+ {id:'005',name:'Bike Race',subtitle:'',how:'P5.js platform. Movement recognition based on MicroBit.',credits:'Done as part of a User interface project, 11 Grade – Oded, Yehonatan, Maayan, Yahli',tags:[],accent:'blue'},
+ {id:'006',name:'SnowBoard simulator',subtitle:'',how:"The skate's mechanism is based on a simple mouse. The three mouse buttons were disassembled and connected at the bottom surface of the skate, activated by tilt and jumps. Game made in Unity 3D.",credits:'Done as part of a Sport game project, 11 Grade – Yahli Dayan & Oran Mocha.',tags:[],accent:'ice'},
+ {id:'007',name:'DDR + Simon',subtitle:'A rhythm and memory game for two players',how:'DIY USB arcade. Custom DIY made platform. Unity 2D rhythm game.',credits:'',tags:[],accent:'blue'},
+ {id:'008',name:'p5.js + MediaPipe',subtitle:'Playful experiments in video-recognition games',how:'Vibe coding sessions where the students explored tools, played with movement and camera input, and turned quick ideas into fun interactive mini-games.',credits:'',tags:[],accent:'blue'},
+ {id:'009',name:'Unity + MediaPipe',subtitle:'',how:'Project information coming from the Projects sheet.',credits:'',tags:[],accent:'blue'},
+ {id:'010',name:'Drum Hero',subtitle:'',how:'Drums based on Arduino + Piezo Sensors. Unity 2D rhythm game.',credits:'Done as part of rhythm game project – 10 Grade',tags:[],accent:'green'},
+ {id:'011',name:'Guitar Hero II',subtitle:'',how:'DIY USB arcade + cardboard guitar. Unity 2D rhythm game.',credits:'',tags:[],accent:'blue'},
+ {id:'012',name:'Floor Piano',subtitle:'',how:'Keys are made of conductive material, so stepping on them closes a circuit and sends a signal to the computer. The first signal is processed by a “Makey Makey”. The organ is suitable for a single player, or for a group (as long as they hold hands).',credits:'',tags:[],accent:'red'}
+];
