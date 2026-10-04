@@ -91,3 +91,48 @@
   .play-game{font-size:12px;padding:5px 8px;left:7px;top:7px}
   .student-work figcaption{font-size:14px}
 }
+/* Third correction pass: only Bike Race and Unity/MediaPipe compositions. */
+.project-bike .copy h2{font-size:clamp(78px,6.2vw,96px)}
+.project-bike .bike-details,.project-bike .bike-main{align-self:end}
+.project-bike .bike-details{align-items:end}
+.project-bike .bike-tools{left:42%;top:-62px;width:245px;max-width:32%;z-index:2}
+.project-avatars .unity-title{display:flex;align-items:center;gap:24px;font-size:clamp(54px,5.9vw,84px);overflow-wrap:normal}
+.project-avatars .unity-title>img{width:155px;height:auto;flex:none;background:none}
+.project-avatars .avatar-creation{grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);gap:12px}
+.project-avatars .avatar-models{gap:8px;align-items:stretch}
+.project-avatars .avatar-portrait{position:relative;min-width:0;height:clamp(280px,26vw,380px)}
+.project-avatars .avatar-portrait>.project-media{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center}
+.project-avatars .avatar-portrait:last-child>.project-media{object-position:60% center}
+.project-avatars .avatar-overlay{position:absolute;z-index:1;pointer-events:none}
+.project-avatars .avatar-overlay img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;max-width:none;background:none}
+.project-avatars .tripo-overlay{left:7%;bottom:18px;width:86%;background:#222;padding:4px 6px}
+.project-avatars .mixamo-overlay{left:5%;top:14px;width:82%}
+.project-avatars .unity-overlay{right:10px;top:12px;width:55px}
+.project-avatars .avatar-test{position:relative;min-width:0}
+.project-avatars .avatar-tests{margin-top:24px}
+.project-avatars .avatar-test>.project-media{display:block;width:100%}
+.project-avatars .avatar-test .unity-overlay{width:58px}
+@media(max-width:1000px) and (min-width:761px){
+  .project-bike .copy h2{font-size:76px}
+  .project-bike .bike-tools{width:205px;top:-46px}
+  .project-avatars .unity-title{font-size:64px;gap:18px}
+  .project-avatars .unity-title>img{width:125px}
+  .project-avatars .avatar-portrait{height:300px}
+}
+@media(max-width:760px){
+  .project-bike .copy h2{font-size:clamp(52px,12vw,78px)}
+  .project-bike .bike-details,.project-bike .bike-main{align-self:stretch}
+  .project-bike .bike-details img{height:auto;aspect-ratio:1/2;object-fit:cover}
+  .project-bike .bike-tools{position:relative;left:auto;top:auto;width:185px;max-width:60%;margin:-5px 12px 10px auto;transform:rotate(-5deg)}
+  .project-bike .bike-explanation{display:flex;flex-direction:column}
+  .project-bike .bike-tools{order:-1;margin-top:-58px}
+  .project-avatars .unity-title{font-size:clamp(32px,7.8vw,54px);gap:12px}
+  .project-avatars .unity-title>img{width:76px}
+  .project-avatars .avatar-creation{display:flex;gap:14px}
+  .project-avatars .avatar-portrait{height:clamp(220px,64vw,350px)}
+  .project-avatars .unity-overlay{width:42px;right:7px;top:8px}
+  .project-avatars .avatar-test .unity-overlay{width:40px}
+}
+
+
+@media(min-width:1001px){.project-bike .copy h2{white-space:nowrap;overflow-wrap:normal}}

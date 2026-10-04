@@ -9,7 +9,7 @@ live with the website code. All project images, GIFs, MP4s, and video posters
 load directly from the media repository. The hero animation lives in `general/`.
 
 The public raw.githubusercontent.com URLs in `app.js` and `index.html` are
-pinned to media commit `1ff302db707a152eee18d538f066fabe4a4191f1`.
+pinned to media commit `237c5f692869cfb8eecbb31b39167ba2ba4c362f`.
 No token, backend, submodule, or media checkout is required to run the website.
 
 For future media changes, stage only needed assets in temporary storage outside
@@ -56,3 +56,11 @@ Canva design `/view?embed` URL becomes an iframe; arbitrary Sheet HTML is never
 inserted. The public link is also available below the embedded presentation.
 013 currently has only `mediaPipe1.mp4` in its Drive folder and no logo asset;
 the simple section is preserved pending the correct supplied graphic.
+
+## Third visual correction release
+
+The supplied `009/unity logo black.png` and `009/unity logo pink.png`
+are published in AltCtrl-media and use the pinned release above. The website
+requires no temporary preview routes. Use the standard local server described
+earlier. Project 013 was rechecked and still has only `mediaPipe1.mp4`;
+there is no supplied bottom-logo candidate to select.
